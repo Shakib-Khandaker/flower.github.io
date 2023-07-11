@@ -110,9 +110,23 @@ header .subclass{
 }
 
 .articles{
+    width: 75%;
+    text-align: center;
+    margin: 0px auto;
     margin-top: 30px;
     margin-bottom: 40px;
 }
 .articles h2{
     margin-bottom: 10px;
+}
+.article{
+    margin-bottom: 20px;
+    text-align: start;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap:20px
+}
+.onearticle{
+    cursor: pointer;
 }
