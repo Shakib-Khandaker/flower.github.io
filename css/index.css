@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+header .mainClass{
+  background-color: #FDEEF1;
+  color: #272727;
+  align-items: center;
+ 
+}
+header .mainClass h1{
+    font-family: 'Lato', sans-serif;
+    
+}
+ p{
+   opacity: 60%;
+   font-weight: 400;
+   color: #272727;
+
+}
+header .subclass{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 75%;
+    margin: 0px auto;
+}
+.featured{
+    background-color: white;
+    margin-top: 50px;
+    width: 75%;
+   
+    margin: 30px auto;
+    text-align: center;
+}
+.flowers{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    gap:30px;
+    justify-content: space-between;
+}
+.featured .item{
+    width: 100%;
+}
+.hotdeal{
+    background-color: #FDEEF1;
+    align-items: center;
+}
+.hotdeal .hotdealcontent{
+
+    width: 75%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin:0px auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.instagram{
+    text-align: center;
+   
+    width: 75%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+.instagram .images{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.images .image{
+    width: 22%;
+}
+.latest{
+    width: 75%;
+    text-align: center;
+    background: url("../images/Rectangle 9.png");
+    padding-top: 70px;
+    margin: 0px auto;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+}
+.latest .deals{
+   
+   width: 85%;
+   margin: 0px auto;
+}
+.deals .email{
+    width: 75%;
+    margin: 0px auto;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.footer{
+    background-color: black;
+    
+}
+.footer .contents{
+    padding: 70px 0px;
+    align-items: center;
+    width: 65%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.articles{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.articles h2{
+    margin-bottom: 10px;
+}
